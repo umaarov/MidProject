@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Конференция</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 10px;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .menu a:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        .sidebar {
+            background-color: #0077c2;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 20px;
+        }
+
+        .sidebar img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .main {
+            margin-left: 200px;
+            padding: 20px;
+        }
+
+        .main h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">Конференция</div>
+    <nav class="menu">
+        <a href="#">Контакты</a>
+        <a href="#">Социальный центр</a>
+        <a href="#">Меню</a>
+        <a href="#">Пресс-служба</a>
+        <a href="#">Журнал</a>
+        <a href="#">Новости</a>
+        <a href="#">Контакты</a>
+    </nav>
+</header>
+<div class="sidebar">
+    <img src="https://i.imgur.com/9vJfZ4u.jpg" alt="Avatar">
+    <a href="#">Профиль</a>
+    <a href="#">Настройки</a>
+    <a href="#">Выход</a>
+</div>
+<div class="main">
+    <h1>Конференция</h1>
+    <div class="card">
+        <h2>Заголовок карточки</h2>
+        <p>Описание карточки. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+    </div>
+    <div class="card">
+        <h2>Заголовок карточки</h2>
+        <p>Описание карточки. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+    </div>
+    <div class="card">
+        <h2>Заголовок карточки</h2>
+        <p>Описание карточки.
